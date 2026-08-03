@@ -1,0 +1,58 @@
+/* Body Background and Font Setup */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0px;
+    padding: 40px;
+}
+
+/* Page Title Centered */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #222222;
+    margin-bottom: 50px;
+}
+
+/* Container to Center All Cards on the Page */
+.card-container {
+    text-align: center;
+}
+
+/* Recipe Cards Styling */
+.card {
+    background-color: #ffffff;
+    width: 300px;
+    border: 2px solid #dddddd;
+    margin: 20px;
+    padding: 0px;
+
+    /* This allows the block cards to sit next to each other on one line */
+    display: inline-block;
+
+    /* Ensures the text alignment inside the card stays on the left */
+    text-align: left;
+}
+
+/* Card Images Styling */
+.card img {
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #dddddd;
+}
+
+/* Recipe Links Styled as Blocks */
+.card a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff6b6b;
+    text-decoration: none;
+    margin: 15px;
+}
